@@ -1,0 +1,43 @@
+{
+	"expo": {
+		"name": "FaLunDafa",
+		"description": "React Native & Expo FaLunDafa",
+		"slug": "FaLunDafa",
+		"owner": "ocean28799",
+		"version": "1.0.0",
+		"orientation": "portrait",
+		"icon": "./assets/images/logo.png",
+		"androidStatusBar": {
+			"barStyle": "light-content"
+		},
+		"splash": {
+			"image": "./assets/images/logo1.png",
+			"resizeMode": "contain",
+			"backgroundColor": "#073b4c"
+		},
+		"updates": {
+			"fallbackToCacheTimeout": 0
+		},
+		"assetBundlePatterns": ["**/*"],
+		"ios": {
+			"supportsTablet": true,
+			"bundleIdentifier": "jsxclan.musicont",
+			"config": {
+				"googleMobileAdsAppId": "ca-app-pub-3940256099942544~1458002511"
+			}
+		},
+		"android": {
+			"package": "jsxclan.musicont",
+			"adaptiveIcon": {
+				"foregroundImage": "./assets/adaptive-icon.png",
+				"backgroundColor": "#FFFFFF"
+			},
+			"config": {
+				"googleMobileAdsAppId": "ca-app-pub-3940256099942544~3347511713"
+			}
+		},
+		"web": {
+			"favicon": "./assets/favicon.png"
+		}
+	}
+}
